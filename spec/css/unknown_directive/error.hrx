@@ -35,13 +35,6 @@ Error: This at-rule is not allowed here.
   '
   input.scss 4:5  root stylesheet
 
-<===> in_declaration/error-libsass
-Error: Illegal nesting: Only properties may be nested beneath properties.
-        on line 4 of /sass/spec/css/unknown_directive/error/in_declaration/input.scss
->>     @asdf;
-
-   ----^
-
 <===>
 ================================================================================
 <===> in_function/input.scss
@@ -58,13 +51,6 @@ Error: This at-rule is not allowed here.
   |   ^^^^^
   '
   input.scss 3:3  root stylesheet
-
-<===> in_function/error-libsass
-Error: Functions can only contain variable declarations and control directives.
-        on line 3 of /sass/spec/css/unknown_directive/error/in_function/input.scss
->>   @asdf;
-
-   --^
 
 <===>
 ================================================================================

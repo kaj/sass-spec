@@ -50,11 +50,6 @@
   c: d;
 }
 
-<===> attribute/modifier/after_string/output-libsass.css
-[a="b" i] {
-  c: d;
-}
-
 <===>
 ================================================================================
 <===> reference_combinator/options.yml
