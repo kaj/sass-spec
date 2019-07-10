@@ -12,13 +12,6 @@ Error: Expected token.
   '
   input.scss 3:14  root stylesheet
 
-<===> empty/error-libsass
-Error: Custom property values may not be empty.
-        on line 3:13 of input.scss
->>   --property:;
-
-   ------------^
-
 <===>
 ================================================================================
 <===> empty_interpolation/input.scss
@@ -34,13 +27,6 @@ Error: Custom property values may not be empty.
   |              ^^^^^
   '
   input.scss 3:14  root stylesheet
-
-<===> empty_interpolation/error-libsass
-Error: Custom property values may not be empty.
-        on line 3:13 of input.scss
->>   --property:#{""};
-
-   ------------^
 
 <===>
 ================================================================================
@@ -131,11 +117,6 @@ Error: expected ";".
   |           ^
   '
   input.scss 2:11  root stylesheet
-
-<===> brackets/square/error-libsass
-Error: Invalid CSS after "  --prop:": expected "}", was "];"
-        on line 2 of /sass/spec/css/custom_properties/error/unmatched_brackets/square/input.scss
-  Use --trace for backtrace.
 
 <===>
 ================================================================================

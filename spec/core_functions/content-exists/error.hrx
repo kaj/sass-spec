@@ -2,11 +2,6 @@
 $error: content-exists();
 
 <===> outside_mixin/error
-Error: Cannot call content-exists() except within a mixin.
-        on line 1 of /sass/spec/core_functions/content-exists/errors/outside-of-mixin/input.scss
-  Use --trace for backtrace.
-
-<===> outside_mixin/error-dart-sass
 Error: content-exists() may only be called within a mixin.
   ,
 1 | $error: content-exists();
@@ -35,12 +30,6 @@ Error: content-exists() may only be called within a mixin.
 }
 
 <===> inside_function/error
-Error: Cannot call content-exists() except within a mixin.
-        on line 2 of /sass/spec/core_functions/content-exists/errors/inside-function/input.scss, in `uses-content-exists-indirectly'
-        from line 14 of /sass/spec/core_functions/content-exists/errors/inside-function/input.scss
-  Use --trace for backtrace.
-
-<===> inside_function/error-dart-sass
 Error: content-exists() may only be called within a mixin.
   ,
 2 |   @return content-exists(); // must be called within a mixin
