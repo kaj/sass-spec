@@ -12,13 +12,6 @@
   x: y;
 }
 
-<===>
-================================================================================
-<===> attribute/modifier/unknown/options.yml
----
-:todo:
-- sass/libsass#2886
-
 <===> attribute/modifier/unknown/input.scss
 // At time of writing, only the modifiers "i" and "s" are allowed by the CSS
 // spec. However, for forwards-compatibility with future CSS additions, any
@@ -49,13 +42,6 @@
 [a=b i] {
   c: d;
 }
-
-<===>
-================================================================================
-<===> reference_combinator/options.yml
----
-:todo:
-- libsass
 
 <===> reference_combinator/input.scss
 // Reference combinators used to be supported by Sass when they were part of the

@@ -364,13 +364,6 @@ a {
   type: string;
 }
 
-<===>
-================================================================================
-<===> list/nested/options.yml
----
-:todo:
-- sass/libsass#2654
-
 <===> list/nested/input.scss
 a {
   $a: inspect([() ()]);
