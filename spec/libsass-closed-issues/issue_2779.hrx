@@ -2,7 +2,7 @@
 @debug(selector-extend(".a .b", "&b", ndll));
 
 <===> error
-Error: Error: Parent selectors aren't allowed here.
+Error: Parent selectors aren't allowed here.
   ,
 1 | &b
   | ^^
