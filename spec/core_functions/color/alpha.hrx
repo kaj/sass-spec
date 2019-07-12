@@ -54,6 +54,11 @@ a {
   b: alpha(c=d, e=f, g=h);
 }
 
+<===> filter/multi_args/options.yml
+---
+:todo:
+- libsass
+
 <===>
 ================================================================================
 <===> filter/space_before_equals/input.scss
@@ -114,11 +119,6 @@ Error: Function alpha is missing argument $color.
 
 <===>
 ================================================================================
-<===> options.yml
----
-:todo:
-- libsass
-
 <===> error/too_many_args/input.scss
 a {b: alpha(red, green)}
 
