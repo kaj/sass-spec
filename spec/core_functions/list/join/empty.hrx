@@ -178,13 +178,6 @@ a {
   b: 1 2 3;
 }
 
-<===>
-================================================================================
-<===> map/first/undecided/options.yml
----
-:todo:
-- sass/libsass#2924
-
 <===> map/first/undecided/input.scss
 @import "core_functions/list/utils";
 
@@ -199,13 +192,6 @@ a {
   value: ();
   separator: space;
 }
-
-<===>
-================================================================================
-<===> map/first/space/options.yml
----
-:todo:
-- sass/libsass#2924
 
 <===> map/first/space/input.scss
 @import "core_functions/list/utils";
@@ -248,13 +234,6 @@ a {b: join((1, 2, 3), $empty-map)}
 a {
   b: 1, 2, 3;
 }
-
-<===>
-================================================================================
-<===> map/second/undecided/options.yml
----
-:todo:
-- sass/libsass#2924
 
 <===> map/second/undecided/input.scss
 @import "core_functions/list/utils";
