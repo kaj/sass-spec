@@ -1,7 +1,7 @@
 <===> input.scss
 '#{)'{
 <===> error
-Error: Invalid UTF-8.
+Error: Expected expression.
   ,
 1 | '#{)'{
   |  ^^
